@@ -1,17 +1,17 @@
 {
-  "name": "@kubohiroya/tm-kamishibai-site-navigation",
-  "version": "0.1.0",
+  "name": "@kubohiroya/turbowarp-kamishibai-site-navigation",
+  "version": "0.2.0",
   "private": false,
   "type": "module",
-  "description": "Shared site navigation contract, renderer, and shell assets for TM Kamishibai sites.",
+  "description": "Shared site navigation contract, renderer, and shell assets for TurboWarp-Kamishibai sites.",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kubohiroya/tm-kamishibai-site-navigation.git"
+    "url": "git+https://github.com/kubohiroya/turbowarp-kamishibai-site-navigation.git"
   },
   "bugs": {
-    "url": "https://github.com/kubohiroya/tm-kamishibai-site-navigation/issues"
+    "url": "https://github.com/kubohiroya/turbowarp-kamishibai-site-navigation/issues"
   },
-  "homepage": "https://github.com/kubohiroya/tm-kamishibai-site-navigation#readme",
+  "homepage": "https://github.com/kubohiroya/turbowarp-kamishibai-site-navigation#readme",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
@@ -42,7 +42,7 @@
     "verify": "npm run lint && npm run format && npm run typecheck && npm run test"
   },
   "keywords": [
-    "tm-kamishibai",
+    "turbowarp-kamishibai",
     "navigation",
     "site"
   ],
