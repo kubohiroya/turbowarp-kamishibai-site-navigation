@@ -1,4 +1,4 @@
-# TM Kamishibai Site Navigation
+# TurboWarp Kamishibai Site Navigation
 
 Shared site navigation contract, renderer, and shell assets for the TM Kamishibai site family.
 
