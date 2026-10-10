@@ -1,19 +1,23 @@
-# TurboWarp Kamishibai Site Navigation
+# TurboWarp-Kamishibai Site Navigation
 
-Shared site navigation contract, renderer, and shell assets for the TM Kamishibai site family.
+Shared site navigation contract, renderer, and shell assets for the TurboWarp-Kamishibai site family.
 
 This repository is the source of truth for the navigation shared by:
 
-- `kubohiroya/tm-kamishibai`
-- `kubohiroya/tm-kamishibai-docs`
-- `kubohiroya/tm-kamishibai-samples`
+- `kubohiroya/turbowarp-kamishibai-app`
+- `kubohiroya/turbowarp-kamishibai-docs`
+- `kubohiroya/turbowarp-kamishibai-samples`
+
+This package was published as `@kubohiroya/tm-kamishibai-site-navigation` up to 0.1.0. Contract 2.0.0
+renames the site keys to `turbowarp-kamishibai-app`, `turbowarp-kamishibai-docs`, and
+`turbowarp-kamishibai-samples`, and points every link at the renamed repositories and sites.
 
 ## Usage
 
 Install the package in a consuming site repository.
 
 ```sh
-pnpm add -D @kubohiroya/tm-kamishibai-site-navigation
+pnpm add -D @kubohiroya/turbowarp-kamishibai-site-navigation
 ```
 
 Render or replace navigation from TypeScript build scripts.
@@ -23,7 +27,7 @@ import {
   NAVIGATION_CONTRACT,
   SITE_SHELL_CSS_URL,
   replaceSiteNavigation,
-} from "@kubohiroya/tm-kamishibai-site-navigation";
+} from "@kubohiroya/turbowarp-kamishibai-site-navigation";
 ```
 
 `SITE_SHELL_CSS_URL` points to the packaged `site-shell.css` asset. Consumers that publish a static
