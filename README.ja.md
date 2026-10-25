@@ -1,6 +1,6 @@
 # TurboWarp-Kamishibai Site Navigation
 
-[English](README.md)
+[English](README.md) | 日本語
 
 TurboWarp-Kamishibai のサイト群で共有する、ナビゲーションの契約・renderer・shell assetです。
 
