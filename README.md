@@ -1,6 +1,6 @@
 # TurboWarp-Kamishibai Site Navigation
 
-[日本語](README.ja.md)
+English | [日本語](README.ja.md)
 
 Shared site navigation contract, renderer, and shell assets for the TurboWarp-Kamishibai site family.
 
