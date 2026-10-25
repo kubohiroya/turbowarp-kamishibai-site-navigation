@@ -1,5 +1,7 @@
 # TurboWarp-Kamishibai Site Navigation
 
+[日本語](README.ja.md)
+
 Shared site navigation contract, renderer, and shell assets for the TurboWarp-Kamishibai site family.
 
 This repository is the source of truth for the navigation shared by:
