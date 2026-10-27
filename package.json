@@ -1,6 +1,6 @@
 {
   "name": "@kubohiroya/turbowarp-kamishibai-site-navigation",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": false,
   "type": "module",
   "description": "Shared site navigation contract, renderer, and shell assets for TurboWarp-Kamishibai sites.",
