@@ -1,6 +1,6 @@
 {
   "name": "@kubohiroya/turbowarp-kamishibai-site-navigation",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": false,
   "type": "module",
   "description": "Shared site navigation contract, renderer, and shell assets for TurboWarp-Kamishibai sites.",
@@ -47,7 +47,11 @@
     "navigation",
     "site"
   ],
-  "author": "Hiroya Kubo",
+  "author": {
+    "name": "Hiroya Kubo",
+    "email": "hiroya@cuc.ac.jp",
+    "url": "https://github.com/kubohiroya"
+  },
   "license": "MPL-2.0",
   "devDependencies": {
     "@eslint/js": "10.0.1",
